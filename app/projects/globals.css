@@ -1,0 +1,91 @@
+/* styles/globals.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Orbitron', sans-serif;
+    background: #0a0a0a; /* Dark background for a futuristic look */
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .pageContainer {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .pageTitle {
+    font-size: 3rem;
+    color: #00eaff; /* Neon blue color */
+    text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
+    margin-bottom: 2rem;
+  }
+  
+  .projectsSection {
+    margin-bottom: 3rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+    color: #ff0080; /* Neon pink for the section title */
+    margin-bottom: 1.5rem;
+  }
+  
+  .projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .projectCard {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 1.5rem;
+    border-radius: 15px;
+    max-width: 300px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  }
+  
+  .projectCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.8);
+  }
+  
+  .projectTitle {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0 10px #ff0080, 0 0 20px #ff0080;
+  }
+  
+  .projectDescription {
+    font-size: 1rem;
+    color: #b0b0b0;
+  }
+  
+  .ongoing {
+    border: 2px solid #ff0080; /* Ongoing projects have pink borders */
+    background: rgba(255, 0, 128, 0.1); /* Light pink background */
+  }
+  
+  @media (max-width: 768px) {
+    .projectCard {
+      max-width: 90%;
+      padding: 1rem;
+    }
+    .pageTitle {
+      font-size: 2rem;
+    }
+  }
+  

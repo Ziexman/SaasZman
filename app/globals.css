@@ -1,0 +1,213 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+/* Import Themes */
+@import './src/styles/themes.css'; /* Path to your themes CSS file */
+
+/* Global Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  background: #000; /* Dark background for contrast */
+}
+
+.about-page {
+  background-image: url('/images/bg.jpg'); /* Background image */
+  background-size: cover; /* Cover the entire page */
+  background-attachment: fixed; /* Fixed background */
+  background-position: center; /* Center the image */
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  padding: 20px; /* Add some padding */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  backdrop-filter: blur(20px); /* Glass morphism effect */
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 0 40px rgba(0, 255, 204, 0.5); /* Neon glow */
+  border: 1px solid rgba(0, 255, 204, 0.3); /* Neon border */
+  animation: float 6s infinite ease-in-out; /* Floating animation */
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.profile-pic {
+  border-radius: 50%;
+  border: 4px solid #00ffcc;
+  box-shadow: 0 0 20px #00ffcc;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1); /* Hover effect */
+  box-shadow: 0 0 40px #00ffcc; /* Stronger glow on hover */
+}
+
+h2 {
+  color: #00ffcc;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #00ffcc; /* Neon text glow */
+  animation: glow 3s infinite; /* Glow animation */
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9); /* Slightly transparent text */
+}
+
+.address span {
+  display: block;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #00ffcc, #00b3ff);
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: pulse 2s infinite; /* Pulsing animation */
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 10px #00ffcc;
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ffcc;
+  }
+}
+
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px #00ffcc;
+}
+
+/* Scrollbar styling */
+.scrollable-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollable-content::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+  background: #00ffcc;
+  border-radius: 10px;
+}
+
+.scrollable-content::-webkit-scrollbar-thumb:hover {
+  background: #00b3ff;
+}
+
+/* Tags */
+.react {
+  border: 0.1rem solid rgb(97, 218, 251);
+}
+.react:hover {
+  background: rgba(97, 218, 251, 0.25);
+}
+
+.node {
+  border: 0.1rem solid rgb(131, 205, 41);
+}
+.node:hover {
+  background: rgba(131, 205, 41, 0.25);
+}
+
+.mongodb {
+  border: 0.1rem solid rgb(67, 153, 52);
+}
+.mongodb:hover {
+  background: rgba(67, 153, 52, 0.25);
+}
+
+.redux {
+  border: 0.1rem solid rgb(118, 74, 188);
+}
+.redux:hover {
+  background: rgba(118, 74, 188, 0.25);
+}
+
+.razorpay {
+  border: 0.1rem solid rgb(82, 143, 240);
+}
+.razorpay:hover {
+  background: rgba(82, 143, 240, 0.25);
+}
+
+.material-ui {
+  border: 0.1rem solid rgb(25, 118, 210);
+}
+.material-ui:hover {
+  background: rgba(25, 118, 210, 0.25);
+}
+
+.bulma {
+  border: 0.1rem solid rgb(0, 209, 178);
+}
+.bulma:hover {
+  background: rgba(0, 209, 178, 0.25);
+}
+
+.next {
+  border: 2px solid rgb(0, 112, 243);
+}
+.next:hover {
+  background: rgba(0, 112, 243, 0.25);
+}
+
+.tailwind {
+  border: 2px solid rgb(6, 182, 212);
+}
+.tailwind:hover {
+  background: rgba(6, 182, 212, 0.25);
+}
+
+.react-query {
+  border: 2px solid rgb(255, 65, 84);
+}
+.react-query:hover {
+  background: rgba(255, 65, 84, 0.25);
+}
+
+.css-modules {
+  border: 2px solid rgb(21, 114, 182);
+}
+.css-modules:hover {
+  background: rgba(21, 114, 182, 0.25);
+}
