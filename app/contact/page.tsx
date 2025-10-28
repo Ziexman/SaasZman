@@ -46,11 +46,11 @@ const Contact = () => {
 
       <div className="relative z-10 max-w-3xl w-full p-8 backdrop-blur-lg bg-white/10 rounded-2xl shadow-2xl border border-white/20">
         <h1 className="text-4xl font-extrabold text-center mb-6 neon-text">
-          Contact Me from the Future 🚀
+          Contact Me  🚀
         </h1>
 
         <p className="text-center text-white/70 mb-6">
-          Drop me a message and let’s connect across time and space!
+          Drop me a message and let’s connect !
         </p>
 
         <form onSubmit={submitForm} className="space-y-5">
@@ -108,7 +108,7 @@ const Contact = () => {
             transition={{ duration: 0.5 }}
             className="text-center mt-5 text-green-400"
           >
-            ✅ Your message has been sent to the future! 🌌
+            ✅ Your message has been sent successfully! 🌌
           </motion.div>
         )}
       </div>
