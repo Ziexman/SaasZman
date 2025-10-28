@@ -51,14 +51,19 @@ export const resumeData = {
       ],
     },
     resume: {
-      skillmessage: "My Programming Language Proficiency",
-        datamessage: "Database Systems I Master",
+      skillmessage: "Programming Language & Framework Proficiency",
+        datamessage: "Database Management Expertise",
       education: [
         {
           school: "Harverd University",
+               school2: "Udemy Courses",
+             school1: "Zero to hero (by Mosh Hamedani)" ,
+         
+             school3: "PapaReact-Zero TO FullStack Hero (by Sonny Sangha)",
+            
           degree: "Web Development , Cyber Security",
          
-          description: "Graduated with First Class Honours",
+          description: "Did Free online Harvard Courses",
         },
       ],
       work: [
@@ -71,42 +76,54 @@ export const resumeData = {
         },
       ],
       skills: [
-        {
-          name: "ReactJs",
-          level: "70%",
-        },
-        {
-          name: "React-nactive",
-          level: "70%",
-        },
-        {
-          name: "Git",
-          level: "60%",
-        },
-        {
-          name: "JavaScript",
-          level: "73%",
-        },
-        {
-          name: "Web Development",
-          level: "81%",
-        },
+         {
+    name: "JavaScript",
+    level: "73%",
+  },
+  {
+    name: "React.js",
+    level: "70%",
+  },
+  {
+    name: "React Native",
+    level: "70%",
+  },
+  {
+    name: "Next.js",
+    level: "85%",
+  },
+  {
+    name: "Node.js",
+    level: "78%",
+  },
+  {
+    name: "Git",
+    level: "70%",
+  },
+],
       ],
         databases:[
             {
-                name: "MongoDb",
-                level:"86%"
-            },
-              {
-                name: "MySql",
-                level:"80%"
-            }
-            ,
-              {
-                name: "PostgreSql",
-                level:"70%"
-            }
-        ]
+    name: "MongoDB",
+    level: "72%",
+  },
+  {
+    name: "MySQL",
+    level: "70%",
+  },
+  {
+    name: "Prisma ORM",
+    level: "75%",
+  },
+  {
+    name: "Firebase",
+    level: "70%",
+  },
+  {
+     name: "PostgreSql",
+   level:"70%"
+    }
+  ]
     },
     portfolio: {
       projects: [
