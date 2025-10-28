@@ -23,7 +23,7 @@ const Resume = () => {
                   <div key={edu.school}>
                     <h3>{edu.school}</h3>
                   
-                    <p>{edu.description}</p>
+                    <p>{edu.degree}</p>
                   </div>
                 ))}
               </div>
