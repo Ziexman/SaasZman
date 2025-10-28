@@ -52,6 +52,7 @@ export const resumeData = {
     },
     resume: {
       skillmessage: "My Programming Language Proficiency",
+        datamessage: "Database Systems I Master",
       education: [
         {
           school: "Harverd University",
@@ -99,6 +100,11 @@ export const resumeData = {
               {
                 name: "MySql",
                 level:"80%"
+            }
+            ,
+              {
+                name: "PostgreSql",
+                level:"70%"
             }
         ]
     },
