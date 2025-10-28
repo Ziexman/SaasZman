@@ -101,7 +101,7 @@ export const resumeData = {
     level: "70%",
   },
 ],
-      ],
+ 
         databases:[
             {
     name: "MongoDB",
