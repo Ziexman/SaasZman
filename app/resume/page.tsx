@@ -27,7 +27,7 @@ const Resume = () => {
                     <h3>{edu.school1}</h3>
                    
                     <h3>{edu.school2}</h3>
-                    <h3>{edu.school3}</h23
+                    <h3>{edu.school3}</h3>
 
                     <p>{edu.degree}</p>
                     <p>{edu.description}</p>
