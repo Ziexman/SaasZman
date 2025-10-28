@@ -22,10 +22,7 @@ const Resume = () => {
                 {education.map((edu) => (
                   <div key={edu.school}>
                     <h3>{edu.school}</h3>
-                    <p className="info">
-                      {edu.degree} <span>&bull;</span>
-                      
-                    </p>
+                  
                     <p>{edu.description}</p>
                   </div>
                 ))}
