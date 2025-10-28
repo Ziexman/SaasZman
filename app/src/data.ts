@@ -72,25 +72,35 @@ export const resumeData = {
       skills: [
         {
           name: "ReactJs",
-          level: "100%",
-        },
-        {
-          name: "React-nactive",
-          level: "85%",
-        },
-        {
-          name: "Git",
           level: "70%",
         },
         {
+          name: "React-nactive",
+          level: "70%",
+        },
+        {
+          name: "Git",
+          level: "60%",
+        },
+        {
           name: "JavaScript",
-          level: "99%",
+          level: "73%",
         },
         {
           name: "Web Development",
-          level: "95%",
+          level: "81%",
         },
       ],
+        databases:[
+            {
+                name: "MongoDb",
+                level:"86%"
+            },
+              {
+                name: "MySql",
+                level:"80%"
+            }
+        ]
     },
     portfolio: {
       projects: [
