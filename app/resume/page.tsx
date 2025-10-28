@@ -24,10 +24,10 @@ const Resume = () => {
                 {education.map((edu) => (
                   <div key={edu.school}>
                     <h3>{edu.school}</h3>
-                    <h2>{edu.school1}</h2>
-                    {/* FIXED: invalid tag <h2.1> changed to <h2> */}
-                    <h2>{edu.school2}</h2>
-                    <h2>{edu.school3}</h2>
+                    <h3>{edu.school1}</h3>
+                   
+                    <h3>{edu.school2}</h3>
+                    <h3>{edu.school3}</h23
 
                     <p>{edu.degree}</p>
                     <p>{edu.description}</p>
