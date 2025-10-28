@@ -4,11 +4,13 @@ import { resumeData } from "../src/data"; // Import the data
 import "./globals.css"; // Import the local CSS file
 
 const Resume = () => {
-  const { skillmessage, education, work, skills ,databases } = resumeData.resume;
+  const { skillmessage, datamessage, education, work, skills, databases } =
+    resumeData.resume;
 
   return (
     <div className="resume-page">
       <section id="resume">
+        {/* Education Section */}
         <div className="row education">
           <div className="three columns header-col">
             <h1>
@@ -23,12 +25,12 @@ const Resume = () => {
                   <div key={edu.school}>
                     <h3>{edu.school}</h3>
                     <h2>{edu.school1}</h2>
-                    <h2.1>{edu.school2}</h2.1>
-                     <h2>{edu.school3}</h2>
-      
-                  
+                    {/* FIXED: invalid tag <h2.1> changed to <h2> */}
+                    <h2>{edu.school2}</h2>
+                    <h2>{edu.school3}</h2>
+
                     <p>{edu.degree}</p>
-              <p>{edu.desciption}</p>
+                    <p>{edu.description}</p>
                   </div>
                 ))}
               </div>
@@ -36,6 +38,7 @@ const Resume = () => {
           </div>
         </div>
 
+        {/* Work Section */}
         <div className="row work">
           <div className="three columns header-col">
             <h1>
@@ -57,6 +60,7 @@ const Resume = () => {
           </div>
         </div>
 
+        {/* Skills Section */}
         <div className="row skill">
           <div className="three columns header-col">
             <h1>
@@ -85,7 +89,9 @@ const Resume = () => {
             </div>
           </div>
         </div>
-                <div className="row database">
+
+        {/* Database Section */}
+        <div className="row database">
           <div className="three columns header-col">
             <h1>
               <span>Database</span>
